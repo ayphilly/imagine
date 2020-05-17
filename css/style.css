@@ -836,12 +836,11 @@ h5,
 /* Blocks */
 
 .carousel-caption {
-    width: 200px;
     z-index: 10;
     color: #fff;
     text-align: left;
-    top: 50%;
-    right: 65%;
+    top: 60%;
+    right: 40%;
     bottom: auto;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -2797,7 +2796,33 @@ h5,
     color: #4285f4;
     margin-bottom: 10px;
 }
+.slider-text h3{
+    font-size: 4rem;
+}
+.btn-slider{
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    width: 20%;
+}
+.btn-slider:hover{
+    background-color: white;
+    color: #4285f4;
+}
+.btn-slider p{
+    color: white;
+    padding-top: 8px ;
 
+
+    
+}
+.btn-slider p:hover{
+    color: #4285f4;
+    padding-top: 8px ;
+
+    
+}
 
 /*PRELOADING------------ */
 
