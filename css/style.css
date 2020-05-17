@@ -836,11 +836,10 @@ h5,
 /* Blocks */
 
 .carousel-caption {
-    width: 200px;
     z-index: 10;
     color: #fff;
     text-align: left;
-    top: 50%;
+    top: 60%;
     right: 65%;
     bottom: auto;
     -webkit-transform: translate(0, -50%);
@@ -2797,7 +2796,22 @@ h5,
     color: #4285f4;
     margin-bottom: 10px;
 }
+.slider-text h3{
+    font-size: 4rem;
+}
+.btn-slider{
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn-slider p{
+    color: white;
+    padding-top: 7px ;
 
+
+    
+}
 
 /*PRELOADING------------ */
 
