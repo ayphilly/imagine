@@ -840,7 +840,7 @@ h5,
     color: #fff;
     text-align: left;
     top: 60%;
-    right: 65%;
+    right: 40%;
     bottom: auto;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -2804,11 +2804,22 @@ h5,
     cursor: pointer;
     border-radius: 50px;
     text-align: center;
+    width: 20%;
+}
+.btn-slider:hover{
+    background-color: white;
+    color: #4285f4;
 }
 .btn-slider p{
     color: white;
-    padding-top: 7px ;
+    padding-top: 8px ;
 
+
+    
+}
+.btn-slider p:hover{
+    color: #4285f4;
+    padding-top: 8px ;
 
     
 }
