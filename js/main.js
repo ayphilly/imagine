@@ -25,8 +25,8 @@
      });
 
 
-     $(".loader").delay(1000).fadeOut("slow");
-     $("#overlayer").delay(1000).fadeOut("slow");
+     $(".loader").delay(500).fadeOut("slow");
+     $("#overlayer").delay(500).fadeOut("slow");
 
      var siteMenuClone = function() {
 
