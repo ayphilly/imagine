@@ -422,7 +422,9 @@ h5,
     width: 100%;
 }
 
-
+.colorw {
+    background-color: #fff;
+}
 /* Navbar */
 
 .site-navbar {
@@ -430,13 +432,13 @@ h5,
     z-index: 1999;
     position: absolute;
     width: 100%;
-    background: #fff;
+    background: transparent;
 }
 
 .site-navbar .site-logo {
     position: relative;
     left: 0;
-    top: -5px;
+    top: 3px;
 }
 
 .site-navbar .site-navigation.border-bottom {
@@ -444,7 +446,8 @@ h5,
 }
 
 .site-navbar .site-navigation .site-menu {
-    margin-bottom: 0;
+   
+    margin: o auto;
 }
 
 .site-navbar .site-navigation .site-menu .active {
@@ -830,6 +833,7 @@ h5,
 .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
+    background-color: #fff;
 }
 
 
@@ -2063,9 +2067,9 @@ h5,
 }
 
 .testimonial figure img {
-    max-width: 100px;
+    max-width:200px;
     margin: 0 auto;
-    border-radius: 50%;
+    
 }
 
 .breadcrumb-custom {

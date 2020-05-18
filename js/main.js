@@ -260,6 +260,8 @@
 
              if (st > 100) {
                  $('.js-sticky-header').addClass('shrink');
+                 $('.js-sticky-header').addClass('colorw');
+
              } else {
                  $('.js-sticky-header').removeClass('shrink');
              }
